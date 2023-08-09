@@ -4,8 +4,14 @@
   "description": "www",
   "main": "index.js",
   "scripts": {
-    "start": "npx serve . -p 3006"
+    "start": "npx serve . -p 3006",
+    "build": "webpack"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
 }
