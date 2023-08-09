@@ -1,0 +1,11 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "www",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx serve . -p 9527"
+  },
+  "author": "",
+  "license": "ISC"
+}
